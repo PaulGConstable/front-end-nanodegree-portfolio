@@ -1,0 +1,66 @@
+.hero,
+.featured_work,
+.interests,
+.footer {
+  order: 10;
+}
+
+.header_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav {
+    z-index: 1;
+    background-color: #fff;
+    width: 300px;
+    position: absolute;
+    /* Use to move the drawer off canvas. */
+    transform: translate(-320px, 0);
+    /* Here I can animate the drawer*/
+    transition: transform 0.3s ease;
+  }
+
+  .nav.open {
+    transform: translate(0, 0);
+  }
+
+  .nav_item {
+    display: list-item;
+    list-style: none;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .header_menu {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 70px;
+    padding: 1em;
+  }
+
+  .header_menu svg {
+    width: 32px;
+    color: #131a2d;
+  }
+
+  .link {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  h3,
+  h4 {
+    font-size: 0.8em;
+  }
+}

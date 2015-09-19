@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Paul Constable's Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  <script src="js/jquery-1.11.3.min.js" async></script>
+  <script src="js/bootstrap.min.js" async></script>
+  <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+</head>
+<body>
+  <div class="container">
+<!-- Header -->
+    <header>
+      <div class="row">
+        <div class="col-md-6">
+          <span class="logo text-center">&#128690;</span>
+        </div>
+        <div class="col-md-6 text-right text-uppercase text-muted">
+          <h1 class="text-title">Paul Constable</h1>
+          <h4 class="text-thin">Assistant Online Producer</h4>
+        </div>
+      </div>
+      <a id="menu" class="header_menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+        </svg>
+      </a>
+      <div class="row header">
+        <div class="col-sm-12">
+          <hr>
+        </div>
+      </div>
+    </header>
+<!-- Navigation -->
+    <nav id="drawer" class="nav">
+      <ul class="nav_list">
+        <li class="nav_item"><a class= "nav-a" href="#">Projects</a></li>
+        <li class="nav_item"><a class= "nav-a" href="#">Interests</a></li>
+        <li class="nav_item"><a class= "nav-a" href="#">Social</a></li>
+      </ul>
+    </nav>
+<!-- Main -->
+    <main>
+  <!-- Hero -->
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <picture>
+            <source media="(max-width: 767px)" srcset="images/cover-photo-390.jpg" class="img-responsive">
+            <source media="(max-width: 991px)" srcset="images/cover-photo-780.jpg" class="img-responsive">
+            <source media="(min-width: 992px)" srcset="images/cover-photo-1150.jpg" class="img-responsive">
+            <img src="images/cover-photo-1150.jpg" class="img-responsive" alt="Paul with girlfriend at Angkor Wat Temples, Cambodia">
+          </picture>
+        </div>
+      </div>
+      <!-- First row of content -->
+      <section>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-left text-thin text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-xs-12 col-md-4">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/project-hold-image-390.jpg" class="img-responsive">
+              <source media="(max-width: 991px)" srcset="images/project-hold-image-780.jpg" class="img-responsive">
+              <source media="(min-width: 992px)" srcset="images/project-hold-image-390.jpg" class="img-responsive">
+              <img class="img-responsive" src="images/project-hold-image-390.jpg" data-toggle="modal" data-target="#project1" alt="Canal in Bruges">
+            </picture>
+              <h3 class="sub-title-thin text-center text-uppercase text-muted">Latest Project</h3>
+              <p class="link">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project1">Link to project</button>
+              </p>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/project-hold-image-195.jpg" class="img-responsive">
+              <source media="(max-width: 991px)" srcset="images/project-hold-image-390.jpg" class="img-responsive">
+              <source media="(min-width: 992px)" srcset="images/project-hold-image-390.jpg" class="img-responsive">
+              <img class="img-responsive" src="images/project-hold-image-390.jpg" data-toggle="modal" data-target="#project2" alt="Canal in Bruges">
+            </picture>
+              <h3 class="sub-title-thin text-center text-uppercase text-muted">Favourite Project</h3>
+              <p class="link">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2">Link to project</button>
+              </p>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/project-hold-image-195.jpg" class="img-responsive">
+              <source media="(max-width: 991px)" srcset="images/project-hold-image-390.jpg" class="img-responsive">
+              <source media="(min-width: 992px)" srcset="images/project-hold-image-390.jpg" class="img-responsive">
+              <img class="img-responsive" src="images/project-hold-image-390.jpg" data-toggle="modal" data-target="#project3" alt="Canal in Bruges">
+            </picture>
+              <h3 class="sub-title-thin text-center text-uppercase text-muted">Other Project</h3>
+              <p class="link">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project3">Link to project</button>
+              </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-left text-thin text-muted">Interests</h2>
+          </div>
+        </div>
+      </section>
+      <!-- Second row of content -->
+      <section>
+        <div class="row text-center">
+          <div class="col-xs-6 col-md-6">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/strava-cycle-190.jpg" class="img-responsive">
+              <source media="(max-width: 991px)" srcset="images/strava-cycle-380.jpg" class="img-responsive">
+              <source media="(min-width: 992px)" srcset="images/strava-cycle-575.jpg" class="img-responsive">
+              <img class="img-responsive" src="images/strava-cycle-575.jpg" data-toggle="modal" data-target="#project4" alt="Close up of Paul with cycling helmet on">
+            </picture>
+              <h3 class="sub-title-thin text-center text-uppercase text-muted">Cycling Stats</h3>
+              <p class="link">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project4">Check 'em out!</button>
+              </p>
+          </div>
+          <div class="col-xs-6 col-md-6">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/cooking-blog-190.jpg" class="img-responsive">
+              <source media="(max-width: 991px)" srcset="images/cooking-blog-380.jpg" class="img-responsive">
+              <source media="(min-width: 992px)" srcset="images/cooking-blog-575.jpg" class="img-responsive">
+              <img class="img-responsive" src="images/cooking-blog-575.jpg" data-toggle="modal" data-target="#project5" alt="Summer Saigon Prawn Rolls">
+            </picture>
+              <h3 class="sub-title-thin text-center text-uppercase text-muted">Cooking Blog</h3>
+              <p class="link">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project5">Read it!</button>
+              </p>
+          </div>
+        </div>
+      </section>
+    </main>
+<!-- Footer Starts -->
+    <footer>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="social">
+            <a href="#" class="zocial-twitter social-a"></a>
+            <a href="#" class="zocial-github social-a"></a>
+            <a href="#" class="zocial-linkedin social-a"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    /*
+    * Open the drawer when the menu ison is clicked.
+    */
+    var menu = document.querySelector('#menu');
+    var main = document.querySelector('main');
+    var drawer = document.querySelector('.nav');
+
+    menu.addEventListener('click', function(e) {
+      drawer.classList.toggle('open');
+      e.stopPropagation();
+    });
+    main.addEventListener('click', function() {
+      drawer.classList.remove('open');
+    });
+  </script>
+<!-- Modal 1 -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Latest Project</h4>
+        </div>
+        <div class="modal-body modal-image">
+          <picture>
+            <source media="(max-width: 767px)" srcset="images/cover-photo-390.jpg" class="img-responsive">
+            <source media="(max-width: 991px)" srcset="images/cover-photo-780.jpg" class="img-responsive">
+            <source media="(min-width: 992px)" srcset="images/cover-photo-1150.jpg" class="img-responsive">
+            <img src="images/cover-photo-1150.jpg" class="img-responsive" alt="Paul with girlfriend at Angkor Wat Temples, Cambodia">
+          </picture>
+            <p>
+            This was my first project in the class.
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal 2 -->
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Favourite Project</h4>
+        </div>
+        <div class="modal-body modal-image">
+          <picture>
+            <source media="(max-width: 767px)" srcset="images/cover-photo-390.jpg" class="img-responsive">
+            <source media="(max-width: 991px)" srcset="images/cover-photo-780.jpg" class="img-responsive">
+            <source media="(min-width: 992px)" srcset="images/cover-photo-1150.jpg" class="img-responsive">
+            <img src="images/cover-photo-1150.jpg" class="img-responsive" alt="Paul with girlfriend at Angkor Wat Temples, Cambodia">
+          </picture>
+          <p>
+            This was my first project in the class.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal 3 -->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Other Project</h4>
+        </div>
+        <div class="modal-body modal-image">
+          <picture>
+            <source media="(max-width: 767px)" srcset="images/cover-photo-390.jpg">
+            <source media="(max-width: 991px)" srcset="images/cover-photo-780.jpg">
+            <source media="(min-width: 992px)" srcset="images/cover-photo-1150.jpg">
+            <img src="images/cover-photo-1150.jpg" class="img-responsive" alt="Paul with girlfriend at Angkor Wat Temples, Cambodia">
+          </picture>
+          <p>
+            This was my first project in the class.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal 4 -->
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel4">Latest Strava Stats</h4>
+        </div>
+        <div class="modal-body text-center">
+          <iframe src="https://www.strava.com/athletes/981347/latest-rides/ee127bbe05ae90fdd2d8bc2c406c99786425a0f8"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal 5 -->
+  <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel5">Latest Blog</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/cook-modal-blog-200.jpg" class="img-responsive modal-image" alt="Homemade Vietnamese Beef Pho">
+          <p>
+            If you've seen my <a href="https://instagram.com/paulgconstable/" target="_blank">Instagram</a> then you'll know I'm a bit of a foodie and I'm slightly fixated on Vietnamese cooking lately. The reason for that is because it shares the comforts of French cooking (which I grew up on!) with the intricate Asian techniques and spices.
+          </p>
+          <p>
+            When I was out in Vietnam and speaking to the locals, I fell in love with their national pride, the importance they put on family and how mealtimes brought people together. The latter two things I can definitely relate to and it was fitting that on Father's Day I cooked Beef Pho(pictured above), summer Saigon prawn rolls and avocado ice cream in homage to these values.
+          </p>
+          <p>
+            Has to be said after the many hours of prep it was a huge success!
+          </p>
+          <p>
+            These recipes, by the way, are all from Uyen Luu's 'My Vietnamese Kitchen' cook book, and I would hugely recommend if you are ever in London a trip to her Supper Club (<a href="http://www.uyenluu.com/supper-club/" target="_blank">link here</a>).
+          </p>
+          <p>
+            Happy cooking everybody!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
